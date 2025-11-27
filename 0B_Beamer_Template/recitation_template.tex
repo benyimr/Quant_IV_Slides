@@ -1,0 +1,73 @@
+\documentclass{beamer}
+\usepackage{ragged2e}
+\usepackage{appendixnumberbeamer}
+\usepackage{amssymb,amsmath}
+\usetheme{cousteau}
+\usepackage[scale=2]{ccicons}
+\setbeamertemplate{frametitle continuation}{}
+
+% Adaptation of the Cousteau Theme by Matthew Blackwell
+%  More Info : https://github.com/mattblackwell/cousteau
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%17.806 – Quantitative Research Methods IV
+\title{\LARGE{Quantitative Research Methods IV - 17.806}}
+\subtitle{\Large{Recitation, Week XX. \\
+	\textbf{Topic:} TITLE}}
+\author{Benjamín Muñoz}
+\institute{ MIT }
+\date{ 2023 }
+
+\logo{
+\includegraphics[width=3.5cm]{MIT_Logo.eps}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\frame{\titlepage}
+
+\logo{}
+
+\begin{frame}{Table of contents}
+	\setbeamertemplate{section in toc}[sections numbered]
+	\tableofcontents%[hideallsubsections]
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section Title}
+\begin{frame}[fragile]{Title}
+	\begin{enumerate}
+		\justifying
+		\item \textbf{Content:}
+		\begin{itemize}
+			\justifying
+			\item Items.
+		\end{itemize}
+		\end{enumerate}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Section Title 2}
+\begin{frame}[fragile,allowframebreaks]{Title}
+	\begin{enumerate}
+		\footnotesize
+		\justifying
+		\item Estimate:
+		\begin{block}{Block Title}
+			\footnotesize
+		\begin{align*}
+			Pr(y_i=1)&=logit^{-1}(\alpha_{j[i]}+\beta_{j[i]}x_i)\\
+			\alpha_{j} &\sim \mathcal{N}(W_j\gamma,\sigma^2_{\alpha})\\
+			\beta_{j} &\sim \mathcal{N}(W_j\delta,\sigma^2_{\beta})\\
+			&\mbox{Uniform Priors}
+		\end{align*}	
+		\end{block}
+	\item Use the model to
+		\end{enumerate}
+\end{frame}
+
+
+\end{document}
