@@ -9,7 +9,7 @@ The recitations complement the course’s lectures and provide applied walkthrou
 
 Slides are organized by week in separate folders.
 
-⸻
+
 
 ## Course Context
 
