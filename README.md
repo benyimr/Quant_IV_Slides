@@ -15,11 +15,12 @@ Slides are organized by week in separate folders.
 
 17.806 is the fourth course in the MIT Political Science quantitative methods sequence.
 The recitations covered topics such as:
-	- Machine learning
-	- Text-as-data basics
-	- Survival analysis
-	- Advanced Difference-in-Differences estimators
-	- Sensitivity analysis
-	- Causal mediation
+
+- Machine learning
+- Text-as-data basics
+- Survival analysis
+- Advanced Difference-in-Differences estimators
+- Sensitivity analysis
+- Causal mediation
 
 These materials were designed to support enrolled students and should be interpreted as supplemental, not standalone instructional content.
